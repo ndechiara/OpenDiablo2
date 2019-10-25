@@ -1,0 +1,8 @@
+language: go
+before_install:
+  - sudo apt-get -y install libx11-dev
+script: buildci.sh
+git:
+  depth: 1
+notifications:
+  email: false
